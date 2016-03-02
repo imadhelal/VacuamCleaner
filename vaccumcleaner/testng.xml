@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none" preserve-order="true">
+<parameter name="browser" value="firefox" />
+  <test name="Test">
+    <classes>
+      
+      <class name="com.jukinmedia.qatest.vaccumcleaner.Ts001TC001_VerifyLoginFunctionality"/>      
+      <class name="com.jukinmedia.qatest.vaccumcleaner.Ts001Tc002_VerifySection_1to3_CompanyLogoMotoName"/>
+      <class name="com.jukinmedia.qatest.vaccumcleaner.Ts001Tc003_Verify_Section4_MailingLinkList"/>
+      <class name="com.jukinmedia.qatest.vaccumcleaner.Ts001Tc004_VerifySection5_HowAboutAcmeVc"/>
+       <class name="com.jukinmedia.qatest.vaccumcleaner.Ts001Tc005_VerifySections_6to7_OverallExp_RecomFrnd_WhyNot"/>
+       <class name="com.jukinmedia.qatest.vaccumcleaner.Ts001Tc006_Verify_Section_8to11_FNameLNameEmailPhone"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.jukinmedia.qatest.vaccumcleaner.Ts001TC001_VerifyLoginFunctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jukinmedia.qatest.vaccumcleaner.Ts001TC001_VerifyLoginFunctionality -->
+      <class name="com.jukinmedia.qatest.vaccumcleaner.Ts001Tc002_VerifySection_1to3_CompanyLogoMotoName">
+        <methods>
+          <include name="verifyLogo"/>
+        </methods>
+      </class> <!-- com.jukinmedia.qatest.vaccumcleaner.Ts001Tc002_VerifySection_1to3_CompanyLogoMotoName -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
